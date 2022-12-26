@@ -1,34 +1,302 @@
 body {
-  background-color: #0e5e6f;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #f8ffdb;
+  color: dimgray;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #ff6464;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #ff6464;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ff6464;
 }
 hr {
-  border-color: #3a8891;
-  border-width: 5px;
-  border-style: none;
+  border: solid 10px;
   border-top-style: dotted;
-  width: 5%;
+  border-bottom: solid 0px;
+  border-left: solid 0px;
+  border-right: solid 0px;
+  color: #b3ffae;
+  width: 100px;
 }
-img {
+a {
+  color: #ff6464;
+}
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #b3ffae;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.contact-txt {
+  margin: 30px;
+  line-height: 2;
+}
+.btn:hover {
+  background: #48f03c;
+  text-decoration: none;
+}
+.top-container {
+  background-color: #b3ffae;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 0;
+}
+.middle-container {
+  padding-top: 100px;
+}
+.profile {
+  padding-bottom: 2em;
+}
+.bottom-container {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ff6464;
+  color: #b3ffae;
+}
+.footer-link {
+  color: #b3ffae;
+  text-decoration: none;
+  padding: 30px;
+}
+.footer-link:hover {
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+}
+.footer-txt {
+  color: #ffffff;
+}
+.pro {
+  text-decoration: underline;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 31.25rem; 
+  bottom: 18.75rem;
+}
+.top-cloud {
+  position: absolute;
+  right: 31.25rem;
+  top: 3.125rem;
+}
+.profile-img {
   border-radius: 50%;
-  height: 150px;
+  height: 200px;
 }
-
-h1 {
-  color: #f2deba;
+.game-dev-icon {
+  height: 25%;
+  width: 25%;
+  float: left;  
+  margin-right: 30px;
 }
-
-h3 {
-  color: #ffefd6;
+.feel-jump-icon {
+  border-radius: 25%;
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
-
-p {
-  color: #ffefd6;
+.socoto-icon {
+  border-radius: 25%;
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-right: 30px;
 }
-
-td {
-  color: #f2deba;
+.csharp-icon {
+  height: 25%;
+  width: 25%;
+  float: right;
 }
-
-th {
-  color: #f2deba;
+.car-icon {
+  height: 25%;
+  width: 25%;
+  float: right;
+}
+.unity-icon {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.java-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.github-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.gitlab-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.json-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.jira-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.csv-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.excel-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.xml-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.aspose-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.sql-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.hibernate-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.swagger-icon {
+  height: 20%;
+  width: 20%;
+  display: inline-block;
+}
+.docker-icon-small {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.jsf-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.tableau-icon {
+  height: 15%;
+  width: 15%;
+  display: inline-block;
+}
+.primefaces-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.javaee-icon {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+}
+.nodejs-icon {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+}
+.hacker-icon {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+}
+.udemy-icon {
+  border-radius: 25%;
+  height: 25%;
+  width: 25%;
+}
+.docker-icon {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+}
+.nestjs-icon {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+}
+.programming-icon {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.typescript-icon {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+}
+.tensorflow-icon {
+  height: 25%;
+  width: 25%;
+  display: inline-block;
+}
+.linkedin-icon {
+  height: 25%;
+  width: 25%;
+}
+.kafka-icon {
+  height: 25%;
+  width: 25%;
+}
+.data-science-icon {
+  height: 25%;
+  width: 25%;
+}
+.python-icon {
+  height: 25%;
+  width: 25%;
+}
+.hs-trier-icon {
+  border-radius: 5%;
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.bbs-trier-icon {
+  border-radius: 5%;
+  height: 25%;
+  width: 25%;
+}
+#header {
+  text-decoration: underline;
 }
